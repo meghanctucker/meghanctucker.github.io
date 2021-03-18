@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Meghan Tucker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous">
+
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="CSS/styles.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <!--Navigation -->
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark" >
+          <div class="container-fluid">
+              <a class="navbar-brand" href="#">Meghan Tucker</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="#portfolio">Portfolio</a>
+                  <a class="nav-link" href="#contact">Contact</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+  <!-- /Navigation -->
+    </header>
+
+    <main>
+      <!--Jumbotron -->
+        <div class="container-fluid d-flex flex-column justify-content-center align-items-center flex-lg-row justify-content-lg-end jumbotron">
+          <div class="intro text-center flex-column col-8 col-lg-6 d-flex align-items-center">
+            <h2 class="jumboText">Hey there! I'm Meghan, and I build websites.</h2>
+            <p class="jumboText">I specialize in front-end design and development. Check out some of my work
+              in the portfolio below or contact me for more information.
+            </p>
+            <button id="contactButton" class="btn btn-primary justify-content-center" style="background-color: #8BB0BE">Contact me!</button>
+          </div>
+          <!-- social media -->
+          <div class="social col-8 d-flex justify-content-center align-items-center col-lg-2 flex-lg-column">
+            <a href="https://www.twitter.com" class="social_svg" id="twitter">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="#B6CCD5" class="bi bi-twitter" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com" class="social_svg" id="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+              </svg>
+            </a>
+            <a href="https://github.com/meghanctucker?tab=repositories" class="social_svg" id="Github">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="#96be8b" class="bi bi-github" viewBox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+              </svg>
+            </a>
+          </div>
+          <!--/social media -->
+        </div>
+      <!-- /Jumbotron -->
+
+      <!--Portfolio -->
+      <div class="pb-4" id="portfolio">
+        <h1 class="text-center pt-3 mb-3">Portfolio</h1>
+        <div id="filter" class="d-flex justify-content-center flex-row mb-3">
+          <button type="button" id="css" class="btn btn-light px-2 mx-2">CSS</button>
+          <button type="button" id="javascript" class="btn btn-light px-2 mx-2">Javascript</button>
+          <button type="button" id="api" class="btn btn-light px-2 mx-2">APIs</button>
+          <button type="button" id="all" class="btn btn-light px-2 mx-2">Show All</button>
+        </div>
+        <!-- Images -->
+        <!--div class="pt-2 container-fluid row justify-content-center"-->
+        <div class="container col-md-12 d-flex flex-row flex-wrap justify-content-center">
+          <div class="col-md-4 col-lg-3 my-3 p-md-4 d-flex moreinfo portLink">
+            <img  class="img-fluid mypic" src="img/screens/EmployeeDirectory.jpg" alt="A custom styled form" data-filter-type="api"/>
+            <div class="overlay">
+              <div class="mytext">
+                <h5 class="">Employee Directory</h5>
+                <p class="">Uses Fetch() to import employee information into a directory. Complete with modal for extra information and search written in JavaScript.</p>
+                <a href="https://meghanctucker.github.io/Employee_Dashboard/" class="goPage">See it!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3 my-3 p-md-4 d-flex moreinfo portLink hidden">
+            <img  class="img-fluid mypic" src="img/screens/customForm_screen.jpg" alt="A custom styled form" data-filter-type="css"/>
+            <div class="overlay">
+              <div class="mytext">
+                <h5 class="">Custom Form</h5>
+                <p class="">A simple example of a custom form using HTML and CSS.</p>
+                <a href="https://meghanctucker.github.io/responsive-newsletter/" class="goPage">See it!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3 my-3 p-md-4 moreinfo portLink">
+            <img class="img-fluid mypic" src="img/screens/Dashboard_screen.jpg" alt="A web application dashboard" data-filter-type="javascript"/>
+            <div class="overlay">
+              <div class="mytext">
+                <h5 class="">Employee Dashboard</h5>
+                <p class="">A custom web app dashboard, using an API, HTML, CSS, JavaScript, and SVG animations.</p>
+                <a href="https://meghanctucker.github.io/web_app_DashboardMCT/" class="goPage">See it!</a>
+              </div>
+            </div>
+          </div>
+          <!--/div-->
+          <div class="col-md-4 col-lg-3 my-3 p-md-4 d-flex moreinfo portLink">
+            <img class="img-fluid mypic" src="img/screens/GameShow_screen.jpg" alt="A javascript game" data-filter-type="javascript"/>
+              <div class="overlay">
+                <div class="mytext">
+                  <h5 class="">Game Show</h5>
+                  <p class="">A game programmed in JavaScript.</p>
+                  <a href="https://meghanctucker.github.io/game_show_app/" class="goPage">See it!</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-3 my-3 p-md-4 d-flex moreinfo portLink">
+              <img class="img-fluid mypic" src="img/screens/photoGallery_screen.jpg" alt="a photo gallery" data-filter-type="javascript"/>
+              <div class="overlay">
+                <div class="mytext">
+                  <h5 class="">Photo Gallery</h5>
+                  <p class="">Programmed with JQuery, a simple photo gallery with caption search feature and modal overlay.</p>
+                  <a href="https://meghanctucker.github.io/Interactive-Photo-Gallery/" class="goPage">See it!</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-3 my-3 p-md-4 d-flex moreinfo portLink">
+              <img class="img-fluid mypic" src="img/screens/styleGuide_screen.jpg" alt="a custom styleguide" data-filter-type="css"/>
+              <div class="overlay">
+                <div class="mytext">
+                  <h5 class="">Style Guide</h5>
+                  <p class="">A custom style guide page created with SASS.</p>
+                  <a href="https://meghanctucker.github.io/MeghanCTucker-StyleGuide/" class="goPage">See it!</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-3 my-3 p-md-4 d-flex moreinfo portLink">
+              <img class="img-fluid mypic" src="img/screens/videoPlayer_screen.jpg" alt="a custom video player" data-filter-type="javascript"/>
+              <div class="overlay">
+                <div class="mytext">
+                  <h5 class="">Video Player</h5>
+                  <p class="">An imbeded video player with custom controls and a JavaScript program to highlight captioning on play.</p>
+                  <a href="https://meghanctucker.github.io/video_player/" class="goPage">See it!</a>
+                </div>
+              </div>
+            </div>
+        </div>
+        <!-- /Images -->
+      </div>
+      <!-- /Portfolio -->
+
+      <!--Contact -->
+      <div id="contact" class="pb-4">
+        <h1 class="text-center py-3">Contact</h1>
+        <div class="d-md-flex justify-content-center justify-content-md-around justify-content-lg-around flex-row">
+          <div id="contactCards" class="location ">
+            <div class="d-flex justify-content-center align-items-stretch flex-row ">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+              </svg>
+              <p class="px-2">Virginia</p>
+            </div>
+            <div class="d-flex justify-content-center align-items-stretch flex-row ">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+              </svg>
+              <p class="px-2">MeghanCTucker@gmail.com</p>
+            </div>
+            <div class="d-flex justify-content-center align-items-stretch flex-row">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+              </svg>
+              <p class="px-2">LinkedIn</p>
+            </div>
+          </div>
+          <div id="contactForm" class="ms-md-2">
+            <!-- action="action_page.php" -->
+            <form class="d-flex justify-content-center flex-column" onSubmit="return false" >
+              <h2>Message Me!</h2>
+
+              <label for="name">name</label>
+              <input type="text" id="name" name="name" placeholder="Jane Smith">
+
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="JSmith@Example.com">
+
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="I'd love to see more examples of your work..." style="height:200px"></textarea>
+
+              <input id="submit" type="submit" value="Submit">
+
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- /Contact -->
+      <!--modal -->
+      <div id="overlayInfo"  class="hidden">
+        <div id="modal">
+          <button id="modalClose">X</button>
+          <div id="modalContent">
+            <div id="popContactForm">
+              <form class="d-flex justify-content-center flex-column" onSubmit="return false" >
+
+                <h2>Message Me!</h2>
+
+                <label for="name">name</label>
+                <input type="text" id="popName" name="name" placeholder="Jane Smith">
+
+                <label for="email">Email</label>
+                <input type="text" id="popEmail" name="email" placeholder="JSmith@Example.com">
+
+                <label for="message">Message</label>
+                <textarea id="popMessage" name="message" placeholder="I'd love to see more examples of your work..." style="height:200px"></textarea>
+
+                <input id="popSubmit" type="submit" value="Submit">
+
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/modal-->
+    </main>
+    <footer class="d-flex justify-content-between">
+    <p> 3/17/2021 </p>
+    <div class="social">
+      <a href="https://www.twitter.com" class="footer_svg mx-2" id="footTwitter">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="16" height="16" class="bi bi-twitter" viewBox="0 0 16 16">
+          <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+        </svg>
+      </a>
+      <a href="https://www.linkedin.com" class="footer_svg mx-2" id="footLinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="16" height="16" class="bi bi-linkedin" viewBox="0 0 16 16">
+          <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+        </svg>
+      </a>
+      <a href="https://github.com/meghanctucker?tab=repositories" class="footer_svg mx-2" id="footGithub">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" width="16" height="16" class="bi bi-github" viewBox="0 0 16 16">
+          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+        </svg>
+      </a>
+    </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous">
+    </script>
+    <script src="JS/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,227 @@
+
+
+/*************
+Typography
+*************/
+h1, h2, .navbar a, button {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+}
+
+
+/*************
+Navigation
+*************/
+
+.nav-link, .navbar-brand {
+  color: #e8e5d4;
+}
+
+.active {
+  color: #96be8b;
+}
+
+/*********
+jumbotron
+**********/
+
+.jumbotron{
+  background-color: #8BB0BE;
+  background-image: url("../img/SpanishMossIllistration5.png");
+  opacity: .65;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro {
+  background-color: rgba(232, 229, 212, 0.9);
+  padding: 2.5%;
+  border-radius: 3%;
+  border: 1px solid grey;
+}
+
+.social_svg {
+  padding: 2%;
+  margin: 2%;
+  background-color: #e8e5d4;
+  border-radius: 50%;
+}
+
+.social_svg svg {
+  width: 16px;
+  height: 16px;
+}
+
+/**************
+Portfolio
+*************/
+
+#portfolio {
+  background-color: #445;
+}
+
+#portfolio h1{
+  color: #e8e5d4;
+}
+
+.moreinfo {
+  position: relative;
+}
+
+.mypic {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #445;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.overlay a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.moreinfo:hover .overlay {
+  width: 100%;
+  left: 0;
+}
+
+.mytext {
+  color: white;
+  font-size: .6em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.hidden {
+  display: none;
+}
+
+/**********
+Contact
+**********/
+#contact {
+  background-color: #8BB0BE;
+}
+
+/**********
+Form
+**********/
+#contactForm, #popContactForm {
+  border: 2px solid black;
+  border-radius: 5%;
+  padding-left:5%;
+  padding-right: 5%;
+  padding-top: 2.5%;
+  box-shadow: 10px 10px;
+}
+
+#contactForm h2, #popContactForm h2 {
+  margin-bottom: 5%;
+  padding-bottom: 5%;
+}
+
+#contactForm label, #popContactForm label {
+  display: none;
+}
+
+#contactForm input, #contactForm textarea, #popContactForm input, #popContactForm textarea {
+  background-color: #d8e5e9;
+  border-radius: 2.5%;
+  margin-bottom: 5%;
+  font-family: 'lato', sans-serif;
+}
+
+#submit, #popSubmit {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.5em;
+  box-shadow: 2.5px 2.5px;
+}
+
+/*******
+Lightbox
+********/
+
+#overlayInfo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#modal {
+  width: 80%;
+  margin: 15% auto auto;
+  position: relative;
+  text-align: center;
+  background: #8BB0BE;
+  border-radius: 5%;
+}
+
+#modalClose {
+  position: absolute;
+  right: 15px;
+  top: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+
+/**********
+Footer
+**********/
+footer {
+  background-color: #445;
+  color: white;
+}
+
+
+/************
+media Queries
+*************/
+
+@media (min-width: 768px) {
+  .social_svg svg {
+    width: 32px;
+    height: 32px;
+  }
+  #modal {
+    width: 60%;
+  }
+}
+
+@media (min-width: 992px) {
+  .social_svg {
+    padding:8%;
+  }
+  .social_svg svg {
+    width: 48px;
+    height: 48px;
+  }
+  #modal {
+    width: 40%;
+  }
+}
